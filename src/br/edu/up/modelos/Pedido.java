@@ -3,13 +3,34 @@ package br.edu.up.modelos;
 //O pedido é de um cliente
 public class Pedido {
 
+    private String numero, data;
+
+
     // O cliente do pedido
-    Cliente cliente;
+    private Cliente cliente;
 
     // O pedido foi realizado pelo garçom
-    Garcom garcom;
+    private Garcom garcom;
 
     // O garçom criar lista de itens do pedido
-    Item[] itens;
+    private Item[] itens;
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    
 
 }

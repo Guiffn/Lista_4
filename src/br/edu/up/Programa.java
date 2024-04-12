@@ -1,7 +1,12 @@
 package br.edu.up;
 
+import br.edu.up.telas.MenuInicial;
+
 public class Programa {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+    public static void main(String[] args) {
+
+        // Inicializar o software
+        MenuInicial menu = new MenuInicial();
+        menu.mostrar();5
     }
 }
