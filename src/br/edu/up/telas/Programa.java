@@ -1,12 +1,10 @@
-package br.edu.up;
-
-import br.edu.up.telas.MenuInicial;
+package br.edu.up.telas;
 
 public class Programa {
     public static void main(String[] args) {
 
         // Inicializar o software
         MenuInicial menu = new MenuInicial();
-        menu.mostrar();5
+        menu.mostrar();
     }
 }
