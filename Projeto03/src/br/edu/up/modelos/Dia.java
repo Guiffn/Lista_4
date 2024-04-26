@@ -27,7 +27,7 @@ public class Dia {
         return null;
     }
 
-    public void excluirComrpromisso(int hora) {
+    public void excluirCompromisso(int hora) {
         Compromisso[] novoArray = new Compromisso[compromissos.length - 1];
         int index = 0;
         for (Compromisso compromisso : compromissos) {
@@ -42,7 +42,8 @@ public class Dia {
     public void listarCompromisso() {
         System.out.println("Comrpromisso do dia" + diaMes + ":");
         for (Compromisso compromisso : compromissos) {
-            System.out.println("Hora " + compromisso.getHora()+"pessoa"+compromisso.getPessoa()+"local"+compromisso.getLocal()+"Assunto"+compromisso.getPessoa());
+            System.out.println("Hora " + compromisso.getHora() + "pessoa" + compromisso.getPessoa() + "local"
+                    + compromisso.getLocal() + "Assunto" + compromisso.getPessoa());
         }
     }
 
