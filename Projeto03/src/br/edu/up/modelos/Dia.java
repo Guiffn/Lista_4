@@ -42,8 +42,8 @@ public class Dia {
     public void listarCompromisso() {
         System.out.println("Comrpromisso do dia" + diaMes + ":");
         for (Compromisso compromisso : compromissos) {
-            System.out.println("Hora " + compromisso.getHora() + "pessoa" + compromisso.getPessoa() + "local"
-                    + compromisso.getLocal() + "Assunto" + compromisso.getPessoa());
+            System.out.println("Hora " + compromisso.getHora() + " pessoa: " + compromisso.getPessoa() + " local: "
+                    + compromisso.getLocal() + " Assunto: " + compromisso.getPessoa());
         }
     }
 

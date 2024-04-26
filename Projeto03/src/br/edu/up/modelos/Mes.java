@@ -14,6 +14,10 @@ public class Mes {
         }
     }
 
+    public String getNome() {
+        return nome;
+    }
+
     public void adicionarCompromisso(Compromisso compromisso, int diaMes) {
         dias[diaMes - 1].adicionarCompromisso(compromisso);
     }
@@ -30,7 +34,7 @@ public class Mes {
     public void listarCompromisso(int diaMes) {
         dias[diaMes - 1].listarCompromisso();
     }
-
+     
     public void listarCompromisso() {
         System.out.println("Compromissos do mês de " + nome + ":");
         for (Dia dia : dias) {
