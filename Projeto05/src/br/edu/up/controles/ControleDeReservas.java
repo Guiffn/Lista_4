@@ -1,3 +1,4 @@
+package br.edu.up.controles;
 import java.util.Scanner;
 
 import br.edu.up.modelo.Reserva;
@@ -59,3 +60,5 @@ public class ControleDeReservas {
          }else{
             System.out.println("Reserva não encontrada");
          }
+        }
+    }
