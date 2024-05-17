@@ -1,5 +1,4 @@
 package br.edu.up;
-
 import br.edu.up.telas.MenuInicial;
 
 public class Programa {
