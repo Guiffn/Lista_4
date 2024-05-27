@@ -13,6 +13,7 @@ public class Cidade extends Endereco {
         this.uf = uf;
     }
 
+    // Getters e Setters
     public String getNome() {
         return nome;
     }
